@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050F48761A61B9AF005673BD /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050F48751A61B9AF005673BD /* AgeOfLaika.jpg */; };
 		054A1A981A61B6AA005C5005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A1A971A61B6AA005C5005 /* AppDelegate.swift */; };
 		054A1A9A1A61B6AA005C5005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A1A991A61B6AA005C5005 /* ViewController.swift */; };
-		054A1A9D1A61B6AA005C5005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054A1A9B1A61B6AA005C5005 /* Main.storyboard */; };
 		054A1A9F1A61B6AA005C5005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054A1A9E1A61B6AA005C5005 /* Images.xcassets */; };
 		054A1AA21A61B6AA005C5005 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054A1AA01A61B6AA005C5005 /* LaunchScreen.xib */; };
 		054A1AAE1A61B6AA005C5005 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A1AAD1A61B6AA005C5005 /* AgeOfLaikaTests.swift */; };
+		05A0DF991A61BFF7009F62DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A0DF971A61BFF7009F62DB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050F48751A61B9AF005673BD /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 		054A1A921A61B6AA005C5005 /* AgeOfLaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfLaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054A1A961A61B6AA005C5005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054A1A971A61B6AA005C5005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054A1A991A61B6AA005C5005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		054A1A9C1A61B6AA005C5005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		054A1A9E1A61B6AA005C5005 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		054A1AA11A61B6AA005C5005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		054A1AA71A61B6AA005C5005 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054A1AAC1A61B6AA005C5005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054A1AAD1A61B6AA005C5005 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		05A0DF981A61BFF7009F62DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		054A1A941A61B6AA005C5005 /* AgeOfLaika */ = {
 			isa = PBXGroup;
 			children = (
+				05A0DF971A61BFF7009F62DB /* Main.storyboard */,
 				054A1A971A61B6AA005C5005 /* AppDelegate.swift */,
 				054A1A991A61B6AA005C5005 /* ViewController.swift */,
-				054A1A9B1A61B6AA005C5005 /* Main.storyboard */,
 				054A1A9E1A61B6AA005C5005 /* Images.xcassets */,
 				054A1AA01A61B6AA005C5005 /* LaunchScreen.xib */,
 				054A1A951A61B6AA005C5005 /* Supporting Files */,
@@ -90,6 +92,7 @@
 		054A1A951A61B6AA005C5005 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				050F48751A61B9AF005673BD /* AgeOfLaika.jpg */,
 				054A1A961A61B6AA005C5005 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054A1A9D1A61B6AA005C5005 /* Main.storyboard in Resources */,
+				050F48761A61B9AF005673BD /* AgeOfLaika.jpg in Resources */,
 				054A1AA21A61B6AA005C5005 /* LaunchScreen.xib in Resources */,
 				054A1A9F1A61B6AA005C5005 /* Images.xcassets in Resources */,
+				05A0DF991A61BFF7009F62DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +240,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		054A1A9B1A61B6AA005C5005 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				054A1A9C1A61B6AA005C5005 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		054A1AA01A61B6AA005C5005 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				054A1AA11A61B6AA005C5005 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		05A0DF971A61BFF7009F62DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A0DF981A61BFF7009F62DB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +411,7 @@
 				054A1AB31A61B6AA005C5005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		054A1AB41A61B6AA005C5005 /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				054A1AB61A61B6AA005C5005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

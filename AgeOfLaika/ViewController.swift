@@ -9,7 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var humanYearsTextField: UITextField!
+    @IBOutlet weak var dogYearsLabel: UILabel!
+    @IBOutlet weak var convertToDogYearsButton: UIButton!
+    
+    let DOG_YEAR_FACTOR = 7.0
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +27,28 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func convertToDogYears(sender: UIButton) {
+        if  let humanYearsFromString = (humanYearsTextField.text as NSString?)?.doubleValue
+        {
+            if(humanYearsFromString > 0){
+                
+                var dogYears = humanYearsFromString * DOG_YEAR_FACTOR
+                dogYearsLabel.text = "\(dogYears) in Dog years"
+                dogYearsLabel.hidden = false
+            }else{
+                clearConversionLabel()
+            }
+        }else{
+            clearConversionLabel()
+        }
+        humanYearsTextField.resignFirstResponder()
+        
+    }
+    
+    func clearConversionLabel() {
+        dogYearsLabel.text = ""
+        dogYearsLabel.hidden = true
+    }
 
 }
 
